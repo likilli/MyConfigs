@@ -1,0 +1,35 @@
+syntax on
+
+" colorscheme on
+
+set nu
+set cursorline
+set cursorcolumn
+set ruler
+set showmatch
+set matchtime=1
+set nobackup
+set nomagic
+set hlsearch
+set nocompatible
+set history=1000
+
+" --------------- tab --------------
+set autoindent
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set cindent
+set expandtab
+" ------- for different files -------
+autocmd FileType c,cpp set ts=2
+autocmd FileType c,cpp set sw=2
+autocmd FileType rs set ts=2
+autocmd FileType rs set sw=2
+autocmd FileType Rust set ts=2
+autocmd FileType Rust set sw=2
+
+set backspace=indent,eol,start
+
+set colorcolumn=81
+set autochdir
