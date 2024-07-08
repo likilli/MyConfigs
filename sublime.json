@@ -1,0 +1,12 @@
+{
+    "ruler": 80,
+    "draw_white_space": "all",
+    "translate_tabs_to_spaces": true,
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    "index_files": true,
+}
+
+
